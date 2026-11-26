@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Leonida Daily — The State of Absurdity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="masthead">
+        <div><a class="brand-logo" href="designHTML.html">LEONIDA <span>DAILY</span></a>
+            <p class="tagline">The State of Absurdity</p>
+        </div>
+        <div class="edition">LEONIDA, USA<br>Independent fictional satire · DEMO EDITION</div>
+    </header>
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <nav class="main-nav" aria-label="News categories"><button class="nav-link active"
+                    data-filter="all">Home</button><button class="nav-link" data-filter="crime">Crime &amp;
+                    Chaos</button><button class="nav-link" data-filter="business">Business</button><button
+                    class="nav-link" data-filter="lifestyle">Lifestyle</button><button class="nav-link"
+                    data-filter="tech">Tech</button><button class="nav-link"
+                    data-filter="weather">Weather</button><button class="nav-link"
+                    data-filter="classifieds">Classifieds</button></nav>
+            <div class="topbar-actions">
+                <div class="search-box"><input id="search" type="search" placeholder="Search Leonida Daily…"
+                        aria-label="Search stories"><span class="search-icon">⌕</span></div><a class="action"
+                    href="#dispatch">Subscribe</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="ticker"><strong>BREAKING NEWS</strong><span>Man tries to pay traffic ticket with good vibes • City
+                considers mandatory siesta hour</span></div>
+        <p class="satire-note">All stories and metrics on this prototype are fictional demonstration content.</p>
+    </div>
+    <main class="container layout-grid">
+        <div>
+            <section class="lead-grid" aria-label="Top stories">
+                <article class="story hero-story" data-category="crime" tabindex="0" role="button"
+                    aria-label="Read Alligator Causes Traffic Jam"><img src="assets/hero.jpg"
+                        alt="Alligator on a tropical city road">
+                    <div class="story-content"><span class="tag">Local chaos</span>
+                        <h1>Alligator Causes Traffic Jam, Refuses to Apologize</h1>
+                        <p>The reptile brought rush hour to a standstill, drawing a massive response and zero remorse.
+                        </p><small>Fictional news · Demo</small>
+                    </div>
+                </article>
+                <div class="side-stories">
+                    <article class="story" data-category="lifestyle" tabindex="0" role="button"><img
+                            src="assets/club.jpg" alt="Neon beach club">
+                        <div class="story-content"><span class="tag">Nightlife</span>
+                            <h3>Beach Club Fined for Being Too Loudly Leonida</h3><small>Demo story</small>
+                        </div>
+                    </article>
+                    <article class="story" data-category="crime" tabindex="0" role="button"><img src="assets/boat.jpg"
+                            alt="Man on a pool float">
+                        <div class="story-content"><span class="tag">Odd news</span>
+                            <h3>Man Attempts to Canoe to the Keys on a Pool Float</h3><small>Demo story</small>
+                        </div>
+                    </article>
+                    <article class="story" data-category="lifestyle" tabindex="0" role="button"><img
+                            src="assets/flamingo.jpg" alt="Flamingo in the city">
+                        <div class="story-content"><span class="tag">Wildlife</span>
+                            <h3>Feral Flamingos Now Outnumber Residents in Two Counties</h3><small>Demo story</small>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <h2 class="section-heading">Latest from Leonida</h2>
+            <section class="latest-grid" aria-label="Latest stories">
+                <article class="story" data-category="weather" tabindex="0" role="button"><img src="assets/storm.jpg"
+                        alt="Tropical lightning">
+                    <div class="story-content"><span class="tag">Weather</span>
+                        <h3>Meteorologists Predict 100% Chance of Bad Decisions</h3>
+                        <p>A forecast warns of extreme heat and questionable life choices.</p><small>Demo story</small>
+                    </div>
+                </article>
+                <article class="story" data-category="business" tabindex="0" role="button"><img src="assets/yacht.jpg"
+                        alt="Millionaire aboard yacht">
+                    <div class="story-content"><span class="tag">Business</span>
+                        <h3>Local Millionaire Launches Subscription-Based Apologies</h3>
+                        <p>Subscribers receive weekly personalized apologies for everything.</p><small>Demo
+                            story</small>
+                    </div>
+                </article>
+                <article class="story" data-category="tech" tabindex="0" role="button"><img src="assets/robot.jpg"
+                        alt="Robot wearing a tropical shirt">
+                    <div class="story-content"><span class="tag">Tech</span>
+                        <h3>AI Refuses to Work After Moving to Leonida</h3>
+                        <p>The system cited the vibe and excessive distractions.</p><small>Demo story</small>
+                    </div>
+                </article>
+                <article class="story" data-category="lifestyle" tabindex="0" role="button"><img
+                        src="assets/protest.jpg" alt="Residents protesting Mondays">
+                    <div class="story-content"><span class="tag">Lifestyle</span>
+                        <h3>Residents Declare Monday a Public Health Hazard</h3>
+                        <p>A grassroots movement demands a three-day weekend.</p><small>Demo story</small>
+                    </div>
+                </article>
+            </section>
+            <p id="empty" class="empty hidden" role="status">No matching stories in this demo.</p>
+        </div>
+        <aside class="sidebar">
+            <section class="dispatch-panel">
+                <h2 class="dispatch-masthead">☀ Leonida Weather</h2>
+                <div class="weather-value">93°F</div>
+                <p>Mostly sunny · demo forecast</p>
+                <div class="weather-days"><span>Wed ☀<br>92°F</span><span>Thu ☁<br>91°F</span><span>Fri ⚡<br>89°F</span>
+                </div>
+            </section>
+            <section class="dispatch-panel">
+                <h2 class="dispatch-masthead">Trending in Leonida</h2>
+                <ol class="trend-list">
+                    <li>#LeonidaLogic</li>
+                    <li>Alligator Rights Movement</li>
+                    <li>Siesta Hour Law</li>
+                    <li>Subscription Apologies</li>
+                    <li>AI on Vacation</li>
+                </ol><small class="satire-note">Illustrative trends only</small>
+            </section>
+            <section class="dispatch-panel newsletter" id="dispatch">
+                <h2 class="dispatch-masthead">The Leonida Daily Dispatch</h2>
+                <p>The week's biggest absurdities, straight to your inbox.</p>
+                <form id="signup"><input type="email" aria-label="Email address" placeholder="Enter your email"
+                        required><button class="action" type="submit">Sign Up</button></form>
+                <p id="signup-status" role="status">Demo only — no email is collected.</p>
+            </section>
+        </aside>
+    </main>
+    <footer class="footer"><strong>LEONIDA <span>DAILY</span></strong><span>Independent fictional satire · AI-assisted
+            editorial project · Unofficial fan concept</span></footer>
+    <dialog id="article"><button class="action" id="close" type="button">Close</button><span class="tag">Fictional
+            satire</span>
+        <h2 id="article-title"></h2><img id="article-image" alt="">
+        <p id="article-text"></p>
+        <p>Demonstration excerpt — full editorial content will be supplied by the future newsroom workflow.</p>
+    </dialog>
+    <script>
+        const stories = [...document.querySelectorAll('.story')], nav = [...document.querySelectorAll('[data-filter]')], search = document.querySelector('#search'); let category = 'all'; function filter() { let q = search.value.toLowerCase().trim(); let count = 0; stories.forEach(s => { let match = (category === 'all' || s.dataset.category === category) && s.textContent.toLowerCase().includes(q); s.classList.toggle('hidden', !match); if (match) count++ }); document.querySelector('.lead-grid').classList.toggle('hidden', !document.querySelector('.lead-grid .story:not(.hidden)')); document.querySelector('.side-stories').classList.toggle('hidden', !document.querySelector('.side-stories .story:not(.hidden)')); document.querySelector('.section-heading').classList.toggle('hidden', !document.querySelector('.latest-grid .story:not(.hidden)')); document.querySelector('#empty').classList.toggle('hidden', count !== 0) } nav.forEach(b => b.addEventListener('click', () => { category = b.dataset.filter; nav.forEach(x => { x.classList.toggle('active', x === b); x.setAttribute('aria-pressed', String(x === b)) }); filter() })); search.addEventListener('input', filter); const dialog = document.querySelector('#article'); function openStory(s) { document.querySelector('#article-title').textContent = s.querySelector('h1,h3').textContent; let img = s.querySelector('img'); document.querySelector('#article-image').src = img.src; document.querySelector('#article-image').alt = img.alt; document.querySelector('#article-text').textContent = s.querySelector('p')?.textContent || 'A fictional headline from our demonstration edition.'; dialog.showModal() } stories.forEach(s => { s.addEventListener('click', () => openStory(s)); s.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openStory(s) } }) }); document.querySelector('#close').addEventListener('click', () => dialog.close()); document.querySelector('#signup').addEventListener('submit', e => { e.preventDefault(); document.querySelector('#signup-status').textContent = 'Demo only: subscription is not connected. No email was sent or stored.'; e.target.reset() });
+    </script>
+</body>
+
+</html>
