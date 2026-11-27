@@ -1,0 +1,27 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/
+
+# Local n8n data
+.n8n/

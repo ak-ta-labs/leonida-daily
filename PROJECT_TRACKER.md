@@ -29,7 +29,7 @@ Repo: `ak-ta-labs/leonida-daily` · Design reference: approved screenshot + `des
 
 | ID | Task | Owner | Reviewer | Depends on | Status |
 |---|---|---|---|---|---|
-| S-01 | Scaffold repo: `web/`, `n8n/`, `docs/`, root `README.md`, `.gitignore`, `.editorconfig` | Alexandra | Tornike | — | ⬜ |
+| S-01 | Scaffold repo: `web/`, `n8n/`, `docs/`, root `README.md`, `.gitignore`, `.editorconfig` | Alexandra | Tornike | — | 🟦 |
 | S-02 | Branch protection on `main`, PR template, issue labels (`web`, `n8n`, `docs`, `bug`, `v2`) | Tornike | Alexandra | S-01 | ⬜ |
 | S-03 | Pick web hosting (GitHub Pages / Netlify / Vercel) with preview deploys per PR | Alexandra | Tornike | S-01 | ⬜ |
 | S-04 | Pick n8n hosting (n8n Cloud vs self-hosted Docker) and storage for seen-items + history (Google Sheet vs Supabase) — write decision in `docs/decisions.md` | Tornike | Alexandra | — | ⬜ |
